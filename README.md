@@ -2,20 +2,32 @@
 
 ## Available commands:
   process <full excel path in double quotes> <sheet Index in excel workbook> <count of top rows to skip>  - Load and process Excel
+
   print  - Print all trades
+
   save  - Save all trades in a target file
+
   exit   - Exit the app
+
 
 ## Example for Process command
 > process "C:\Users\aries\Downloads\tradebook-AL8984-EQ (2).xlsx" 1 15
+
 [18:30:10 INF] Processing tradebook from c:\users\aries\downloads\tradebook-al8984-eq (2).xlsx at sheet position 1
+
 [18:30:13 INF] Processing 2103 tradebook entities
+
 [18:30:13 INF] Tradebook processed and trades derived
+
 
 ## Example for Print command
 > print
+
 [18:55:22 INF] Printing all trades...
+
 [18:55:22 INF] Total trades: 59
+
+```
 Symbol                 Qty     Entry      Exit  IsLong           EntryDate            ExitDate
 ----------------------------------------------------------------------------------------------------
 TBOTEK                 400   1188.87   1191.90   Short          2025-04-01          2025-04-01
@@ -77,3 +89,4 @@ ONGC                  3000    234.06    234.37   Short          2025-05-09      
 ONGC                  3500    234.10    234.35   Short          2025-05-09          2025-05-09
 ADANIENT              1500   2237.00   2241.59   Short          2025-05-09          2025-05-09
 ADANIENT              1000   2236.18   2241.89   Short          2025-05-09          2025-05-09
+```
