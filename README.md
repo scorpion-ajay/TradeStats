@@ -8,6 +8,8 @@ If you go via PnL route from Zerodha console (from lets say timestamp S to E), t
 
 I wrote this application which you can run locally in any OS, it gives the basic trade level stats.
 
+If you are looking for particular feature, you can reach out to me on Facebook: https://www.facebook.com/profile.php?id=100072467109975
+
 ## Available commands:
   process <full excel path in double quotes> <sheet Index in excel workbook> <count of top rows to skip>  - Load and process Excel
 
