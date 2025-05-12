@@ -1,4 +1,12 @@
-# TradeStats
+# TradeStats Application
+
+This is a simple DotNet Console application written in C#.
+
+When you download tradebook from zerodha, it gives the data at order level, but we want to journal things at trade level which gives us better stats around win rate, average win/loss, count of trades etc.
+
+If you go via PnL route from Zerodha console (from lets say timestamp S to E), then it gives the overall PnL at symbol level but not at trade level.
+
+I wrote this application which you can run locally in any OS, it gives the basic trade level stats.
 
 ## Available commands:
   process <full excel path in double quotes> <sheet Index in excel workbook> <count of top rows to skip>  - Load and process Excel
